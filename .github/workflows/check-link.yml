@@ -35,9 +35,9 @@ jobs:
       #     cache: npm
 
       - name: ECHO
-        run: echo 'Hello World!!'
-
-      exit : 1
+        run: |
+          echo 'Hello World!!'
+          exit 1
       # - name: Install
       #   run: npm ci
 
